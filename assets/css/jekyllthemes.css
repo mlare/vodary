@@ -7947,8 +7947,7 @@ code {
   }
 }
 .hero-unit {
-  /*background: none repeat scroll 0 0 rgba(199, 222, 8, 0.12);*/
-  background-image: url(../img/bg.jpg);
+  background: none repeat scroll 0 0 rgba(199, 222, 8, 0.12);
   margin-top: 20px;
   padding: 20px;
 }
