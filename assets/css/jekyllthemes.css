@@ -7922,7 +7922,7 @@ code {
 }
 #header {
   background-image: url(../img/bg.jpg);
-  border-bottom: 2px solid #000;
+  border-bottom: 0px solid #000;
 }
 #logo {
   font-family: 'Roboto Condensed', sans-serif;
@@ -7947,7 +7947,8 @@ code {
   }
 }
 .hero-unit {
-  background: none repeat scroll 0 0 rgba(199, 222, 8, 0.12);
+  /*background: none repeat scroll 0 0 rgba(199, 222, 8, 0.12);*/
+  background-image: url(../img/bg.jpg);
   margin-top: 20px;
   padding: 20px;
 }
