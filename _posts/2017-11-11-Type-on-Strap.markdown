@@ -1,11 +1,15 @@
 ---
 layout: post
 title: Type on Strap
+ortitle: Тот верёвочный
+resume: An adventure story about a girl and her cat during the WW2.
+orresume: В наших планах — системная работа по возрождению русской литературной критики. Не заказные статьи рекламного свойства, а непредвзятый взгляд профессионалов. Литературный анализ и разбор  лучших образцов современной словесности. Рецензии, полемика, открытие имен.
 date: 2017-11-11 07:00:00
 homepage: https://github.com/Sylhare/Type-on-Strap
 download: https://github.com/Sylhare/Type-on-Strap/archive/master.zip
 demo: https://sylhare.github.io/Type-on-Strap/
-author: Sylhare
+author: Sylhare Smidt
+orauthor: Шилхарий Шмидт
 thumbnail: type-on-strap.jpg
 license: MIT License
 license_link: https://github.com/Sylhare/Type-on-Strap/blob/master/LICENSE
