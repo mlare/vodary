@@ -26,11 +26,9 @@ layout: default
                         <a href="/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr></code></a>&nbsp;
                 {% endfor %}
 		{% endif %}
-		
-                <hr>
-		
+                <hr
 		{% if page.graphics %}
-			<br /><strong>Graphic system:</strong> {{ page.graphics }}
+			<strong>Graphic system:</strong> {{ page.graphics }}
 		{% endif %}
 		
 		{% if page.ortitle %}
