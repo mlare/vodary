@@ -1,2 +1,0 @@
-# vodarynew
-Voday Paris
