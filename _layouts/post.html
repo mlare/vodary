@@ -23,6 +23,17 @@ layout: default
 			<br /><strong>Language:</strong> {{ page.lang }}
 		{% endif %}
 		
+		{% if page.tags %}
+			<br /><strong>Tags:</strong>
+		{% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+  {% endfor %}
+]</span>
+		{% endif %}
+		<span>[
+  
+		
 		{% if page.graphics %}
 			<br /><strong>Graphic system:</strong> {{ page.graphics }}
 		{% endif %}
