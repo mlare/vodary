@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Search: Belarusan language"
+title: "Belarusan language"
 tag: Belarusan·language
 ---
