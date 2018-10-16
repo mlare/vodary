@@ -6,7 +6,8 @@ layout: default
 
 	<div class="postthumb"><img src="/thumbnails/{{ page.thumbnail }}" /></div>
 
-	<h1>{{ page.title }}, <i style="font-weight:normal;  font-family:Times New Roman; size:40%">{{ page.author }}</i> <i color:#aaaaaa;>//</i><br>{{ page.ortitle }}, <i style="font-weight:normal;  font-family:Times New Roman; size:40%">{{ page.orauthor }}</i></h1>
+	<h1>{{ page.title }}, <i style="font-weight:normal;  font-family:Times New Roman; size:40%">{{ page.author }}</i> <i color:#aaaaaa;>//</i></h1>
+	<h1>{{ page.ortitle }}, <i style="font-weight:normal;  font-family:Times New Roman; size:40%">{{ page.orauthor }}</i></h1>
 
 	<div class="meta clearfix">
 		
@@ -18,11 +19,7 @@ layout: default
 		{% if page.resume %}
 			<br /><strong>Resume (English):</strong> {{ page.resume }}
 		{% endif %}
-		
-		{% if page.lang %}
-			<br /><strong>Language:</strong> {{ page.lang }}
-		{% endif %}
-		
+			
 		{% if page.tags %}
 			<br /><strong>Language, script:</strong>
 		{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}
