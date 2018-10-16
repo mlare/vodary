@@ -3,12 +3,10 @@ layout: default
 ---
 <div class="post">
 <h1>Search: {{ page.title }}</h1>
-<ul>
+<div class="gallery">
 {% for post in site.tags[page.tag] %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-    {{ post.description }}
-  </li>
+  {% include collecttags.html %}
 {% endfor %}
-</ul>
+</div>
 </div>
 <hr>
