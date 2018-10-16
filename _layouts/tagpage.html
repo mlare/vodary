@@ -4,9 +4,14 @@ layout: default
 <div class="post">
 <h1>Search: {{ page.title }}</h1>
 <div class="gallery">
-{% for post in site.tags[page.tag] %}
-  {% include collecttags.html %}
-{% endfor %}
+	{% for post in paginator.posts %}
+		<div class="item">
+			<a class="item-inner" href="{{ post.url }}">
+				  {% include postwidget.html %}
+			</a>
+		</div>
+	{% endfor %}
 </div>
 </div>
 <hr>
+
