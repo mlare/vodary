@@ -4,7 +4,7 @@ layout: default
 <div class="post">
 <h1>Search: {{ page.title }}</h1>
 <div class="gallery">
-	{% for post in paginator.posts %}
+	{% for post in site.tags[page.tag] %}
 		<div class="item">
 			<a class="item-inner" href="{{ post.url }}">
 				  {% include postwidget.html %}
@@ -14,4 +14,3 @@ layout: default
 </div>
 </div>
 <hr>
-
