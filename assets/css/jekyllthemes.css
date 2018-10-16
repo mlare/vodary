@@ -7913,7 +7913,6 @@ a.badge:focus {
 }
 html,
 body {
-  background-color: #eeeeee;
 }
 code {
   color: #000;
@@ -7922,18 +7921,17 @@ code {
   margin-top: 20px;
 }
 #header {
-  height: 58px;
   background-image: url(../img/darkdenim3.png);
   border-bottom: 2px solid #000;
 }
 #logo {
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: x-large;
   font-weight: 400;
   color: #eee;
-  line-height: 0.7;
+  line-height: normal;
   margin: 0 auto;
   text-align: center;
-  width: 250px;
 }
 #logo a {
   color: #eee;
@@ -7949,7 +7947,7 @@ code {
   }
 }
 .hero-unit {
-  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+  background: none repeat scroll 0 0 rgba(199, 222, 8, 0.12);
   margin-top: 20px;
   padding: 20px;
 }
