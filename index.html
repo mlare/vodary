@@ -8,7 +8,16 @@ title: Éditions Vodary, publisher in Paris
 		<div class="item">
 			<a class="item-inner" href="{{ post.url }}">
 				<div class="item-image"><img src="/thumbnails/{{ post.thumbnail }}"></div>
-				<div class="item-name">{{ post.title }} — {{ post.author }} //<br>{{ post.ortitle }} — {{ post.orauthor }}<br>{{ post.langcode }} {{ post.graphicscode }}</div>
+				<div class="item-name">{{ post.title }} — {{ post.author }} //<br>{{ post.ortitle }} — {{ post.orauthor }}<br>
+				{% if page.tags %}
+			<br /><strong>Tags:</strong>
+		{% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+  {% endfor %}
+]</span>
+		{% endif %}
+				</div>
 			</a>
 		</div>
 	{% endfor %}
