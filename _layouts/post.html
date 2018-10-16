@@ -11,13 +11,13 @@ layout: default
 
 	<div class="meta clearfix">
 		
-		<strong>Author (English):</strong> {{ page.author }}
+		<strong>Autho:</strong><sup>En</sup> {{ page.author }}
 		
 		
-		<br /><strong>Title (English):</strong> {{ page.title }}
+		<br /><strong>Title:</strong><sup>En</sup> {{ page.title }}
 
 		{% if page.resume %}
-			<br /><strong>Resume (English):</strong> {{ page.resume }}
+			<br /><strong>Resume:</strong><sup>En</sup> {{ page.resume }}
 		{% endif %}
 			
 		{% if page.tags %}
@@ -27,7 +27,7 @@ layout: default
                 {% endfor %}
 		{% endif %}
 		
-  
+                <hr>
 		
 		{% if page.graphics %}
 			<br /><strong>Graphic system:</strong> {{ page.graphics }}
