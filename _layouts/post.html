@@ -9,21 +9,22 @@ layout: default
 	<h1>{{ page.title }} — {{ page.author }} //<br> {{ page.ortitle }} — {{ page.orauthor }}</h1>
 
 	<div class="meta clearfix">
+		
 		<strong>Author (English):</strong> {{ page.author }}
 		
 		
-		<strong>Title (English):</strong> {{ page.title }}
+		<br /><strong>Title (English):</strong> {{ page.title }}
 
 		{% if page.resume %}
 			<br /><strong>Resume (English):</strong> {{ page.resume }}
 		{% endif %}
 		
-		{% if page.language %}
-			<br /><strong>Language (English):</strong> {{ page.language }}
+		{% if page.lang %}
+			<br /><strong>Language:</strong> {{ page.lang }}
 		{% endif %}
 		
 		{% if page.graphics %}
-			<br /><strong>Graphic system (English):</strong> {{ page.graphics }}
+			<br /><strong>Graphic system:</strong> {{ page.graphics }}
 		{% endif %}
 		
 		{% if page.ortitle %}
