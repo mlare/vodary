@@ -15,7 +15,7 @@ demo: https://sylhare.github.io/Type-on-Strap/
 author: Sylhare Smidt
 orauthor: Шилхарий Шмидт
 thumbnail: type-on-strap.jpg
-tags: l:Belarusian s:Cyrillic
+tags: belarusian cyrillic
 license: MIT License
 license_link: https://github.com/Sylhare/Type-on-Strap/blob/master/LICENSE
 ---
