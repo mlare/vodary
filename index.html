@@ -7,7 +7,7 @@ title: Éditions Vodary, publisher in Paris
 	{% for post in paginator.posts %}
 		<div class="item">
 			<a class="item-inner" href="{{ post.url }}">
-				  {% include collecttags.html %}
+				  {% include postwidget.html %}
 			</a>
 		</div>
 	{% endfor %}
