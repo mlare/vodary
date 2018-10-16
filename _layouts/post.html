@@ -24,14 +24,12 @@ layout: default
 		{% endif %}
 		
 		{% if page.tags %}
-			<br /><strong>Tags:</strong>
-		{% for tag in page.tags %}
-    {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-  {% endfor %}
-]</span>
+			<br /><strong>Language, script:</strong>
+		{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}
+                        <a href="/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr></code> </a>
+                {% endfor %}
 		{% endif %}
-		<span>[
+		
   
 		
 		{% if page.graphics %}
