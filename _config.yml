@@ -1,8 +1,8 @@
-name: Jekyll Themes
-url: http://matt.harzewski.com
-description: Insert tagline here
+name: Vodary Paris — World literatures in original
+url: https://vodary.paris.fr
+description: across languages and scripts
 
-permalink: /themes/:title/
+permalink: /book/:title/
 
 gems: [jekyll-paginate]
 
