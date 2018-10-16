@@ -23,7 +23,7 @@ layout: default
 		{% if page.tags %}
 			<br /><strong>Language, script:</strong>
 		{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}
-                        <a href="/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr></code> </a>
+                        <a href="/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr></code></a>&nbsp;
                 {% endfor %}
 		{% endif %}
 		
