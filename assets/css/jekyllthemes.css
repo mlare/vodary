@@ -205,9 +205,9 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 18px;/*14px*/
+  line-height: 26px; /*20px*/
   /*color: #333333;*/
   background-color: #ffffff;
 }
