@@ -6030,9 +6030,6 @@ a.badge:focus {
   line-height: 30px;
   color: inherit;
   background-color: #eeeeee;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
 }
 .hero-unit h1 {
   margin-bottom: 0;
@@ -7948,7 +7945,7 @@ code {
   }
 }
 .hero-unit {
-  background: none repeat scroll 0 0 rgba(199, 222, 8, 0.12);
+  background-image: url(../img/bgyel.jpg);
   margin-top: 20px;
   padding: 20px;
 }
