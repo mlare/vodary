@@ -7945,9 +7945,9 @@ code {
   }
 }
 .hero-unit {
-  background-image: url(../img/bgyel.jpg);
   margin-top: 20px;
   padding: 20px;
+  color: #000;
 }
 .hero-unit a {
   color: #565555;
