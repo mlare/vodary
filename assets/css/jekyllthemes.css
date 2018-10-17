@@ -7900,12 +7900,14 @@ a.badge:focus {
  * Copyright 2013 Matt Harzewski
  */
 .wrap {
-  width: 560px;
+  width: 250px;
   margin: 0 auto;
 }
 @media (max-width: 959px) {
   .wrap {
     width: auto;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 html,
@@ -7942,6 +7944,7 @@ code {
   #header {
     margin-left: -20px;
     margin-right: -20px;
+    padding: 10px;
   }
 }
 .hero-unit {
@@ -8041,8 +8044,7 @@ code {
 #footer {
   margin-top: 30px;
   padding-top: 15px;
-  border-top: 1px solid #ddd;
-  background-color: #fff;
+  background-image: url(../img/bg.jpg);
   color: #5c5c5c;
 }
 #footer h3 {
