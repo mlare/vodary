@@ -7900,7 +7900,7 @@ a.badge:focus {
  * Copyright 2013 Matt Harzewski
  */
 .wrap {
-  width: 960px;
+  width: 560px;
   margin: 0 auto;
 }
 @media (max-width: 959px) {
