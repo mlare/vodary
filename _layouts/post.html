@@ -11,36 +11,33 @@ layout: default
 
 	<div class="meta clearfix">
 		
-		<strong class="technical">Autho:</strong><sup>En</sup> {{ page.author }}
+		<strong class="technical">Author:<sup>En</sup></strong> {{ page.author }}
 		
 		
-		<br /><strong class="technical">Title:</strong><sup>En</sup> {{ page.title }}
+		<br /><div class="technical">Title:</strong><sup>En</sup></div> {{ page.title }}
 
 		{% if page.resume %}
-			<br /><strong class="technical">Resume:</strong><sup>En</sup> {{ page.resume }}
+			<br /><div class="technical">Resume:<sup>En</sup></div> {{ page.resume }}
 		{% endif %}
 			
 		{% if page.tags %}
-			<br /><strong class="technical">Language, script:</strong>
+			<br /><div class="technical">Language, script:</div>
 		{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}
-                        <a href="/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr></code></a>&nbsp;
+                        <a href="/tag/{{ tag_name }}" class="tagged"><nobr>{{ tag_name }}</nobr></code></a>&nbsp;
                 {% endfor %}
 		{% endif %}
                 <hr
-		{% if page.graphics %}
-			<strong>Graphic system:</strong> {{ page.graphics }}
-		{% endif %}
 		
 		{% if page.ortitle %}
-			<br /><strong class="technical">Name:</strong> {{ page.ortitle }}
+			<br /><div class="technical">Name:</div> {{ page.ortitle }}
 		{% endif %}
 
 		{% if page.orauthor %}
-			<br /><strong class="technical">Author:</strong> {{ page.orauthor }}
+			<br /><div class="technical">Author:</div> {{ page.orauthor }}
 		{% endif %}
 		
 		{% if page.orresume %}
-			<br /><strong>Resume:</strong> {{ page.orresume }}
+			<br /><div class="technical">Resume:</div> {{ page.orresume }}
 		{% endif %}
 
 		<br /><br />
