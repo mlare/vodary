@@ -6,6 +6,7 @@ homepage: https://github.com/dougbeney/jekyll-pug-material
 download: https://github.com/dougbeney/jekyll-pug-material/archive/master.zip
 demo: http://material.jekyll-pug.dougie.io
 author: Doug Beney
+tags: Belarusan·language
 thumbnail: jekyll-pug-material.png
 license: MIT License
 license_link: https://github.com/DougBeney/jekyll-pug-material/blob/master/LICENSE
