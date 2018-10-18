@@ -14,7 +14,7 @@
 
 
 {% if page.path == "index.html" %}
-<strong><a href="/"><nobr>All</nobr></a></strong> // 
+<strong><a href="/" color=black;><nobr>All</nobr></a></strong> // 
 {% else %}
 <a href="/"><nobr>All</nobr></a> // 
 {% endif %}
@@ -25,7 +25,7 @@
 
 {% assign newvar = 'tag/' | append: tagname | append: '.md' %}
 {% if page.path == newvar %}
-<strong><a href="/tag/{{ tagname }}"><nobr>{{ tagname }}</nobr></a></strong> // 
+<strong><a href="/tag/{{ tagname }}" color=black;><nobr>{{ tagname }}</nobr></a></strong> // 
 {% else %}
 <a href="/tag/{{ tagname }}"><nobr>{{ tagname }}</nobr></a> // 
 {% endif %}
