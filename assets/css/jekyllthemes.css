@@ -8046,17 +8046,12 @@ code {
 }
 #footer {
   margin-top: 30px;
-  padding-top: 15px;
   background-image: url(../img/bg.jpg);
-  color: #5c5c5c;
      margin-left: -20px;
     margin-right: -20px;
     padding: 10px;
 }
-#footer h3 {
-  margin-top: -7px;
-  padding-top: 0;
-}
+
 @media (max-width: 959px) {
   #footer {
     margin-left: -20px;
