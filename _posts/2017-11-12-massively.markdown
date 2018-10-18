@@ -6,6 +6,7 @@ homepage: https://github.com/iwiedenm/jekyll-theme-massively-src
 download: https://github.com/iwiedenm/jekyll-theme-massively-src/archive/master.zip
 demo: https://iwiedenm.github.io/jekyll-theme-massively/
 author: Somiibo
+tags: Cyrillic·script
 thumbnail: massively.png
 license: Creative Commons Attribution 3.0 Unported License
 license_link: https://github.com/iwiedenm/jekyll-theme-massively-src/blob/master/LICENSE.md
