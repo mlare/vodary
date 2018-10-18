@@ -5,9 +5,33 @@
 {% endcapture %}
 {% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
 
- {{ page.title }}
 
-{{ page.url }}
+
+
+content {{ page.content }}
+
+title {{ page.title }}
+
+excerpt {{ page.excerpt }}
+
+url {{ page.url }}
+
+date {{ page.date }}
+
+id {{ page.id }}
+
+categories {{ page.categories }}
+
+tags {{ page.tags }}
+
+path {{ page.path }}
+
+next {{ page.next }}
+
+previous {{ page.previous }}
+
+
+
 
 {% if page.url == "/index.html" %}
 <strong><a href="/"><nobr>All</nobr></a></strong> // 
