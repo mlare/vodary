@@ -8071,3 +8071,9 @@ code {
   text-align: justify;
   text-indent: 2em;
 }
+
+.technical {
+font-family: "Istok Web", Helvetica, Arial, sans-serif;
+  font-size: 14px;/*14px*/
+  line-height: 20px; /*20px*/
+}
