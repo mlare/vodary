@@ -6025,11 +6025,14 @@ a.badge:focus {
 .hero-unit {
   padding: 60px;
   margin-bottom: 30px;
-  font-size: 18px;
-  font-weight: 200;
   line-height: 30px;
-  color: inherit;
+  /*color: inherit;*/
   background-color: #eeeeee;
+  font-family: "Istok Web", Helvetica, Arial, sans-serif;
+  font-size: 18px;/*14px*/
+  line-height: 26px; /*20px*/
+  color: #888;
+
 }
 .hero-unit h1 {
   margin-bottom: 0;
@@ -8072,7 +8075,7 @@ code {
   text-indent: 2em;
 }
 
-.hero-unit.technical, .technical {
+.technical {
 font-family: "Istok Web", Helvetica, Arial, sans-serif;
   font-size: 18px;/*14px*/
   line-height: 26px; /*20px*/
