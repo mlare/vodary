@@ -7923,6 +7923,9 @@ code {
   background-image: url(../img/bg.jpg);
   border-bottom: 0px solid #000;
   /*height: 220px;*/
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 10px;
 }
 #logo {
   font-family: 'Roboto Condensed', sans-serif;
@@ -8046,6 +8049,9 @@ code {
   padding-top: 15px;
   background-image: url(../img/bg.jpg);
   color: #5c5c5c;
+     margin-left: -20px;
+    margin-right: -20px;
+    padding: 10px;
 }
 #footer h3 {
   margin-top: -7px;
