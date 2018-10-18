@@ -4,8 +4,21 @@
   {% endfor %}
 {% endcapture %}
 {% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
+
+{% if page.url == "/index.html" %}
+<strong><a href="/tag/{{ tagname }}"><nobr>{{ tagname }}</nobr></a></strong> // 
+{% else %}
+<a href="/tag/{{ tagname }}"><nobr>{{ tagname }}</nobr></a> // 
+{% endif %}
+
 {% for temptag in sortedtemptags %}
   {% assign tagitems = temptag | split: '#' %}
   {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
-  <a href="/tag/{{ tagname }}"><nobr>{{ tagname }}</nobr></a>
+
+{% if page.url == "/tag/{{ tagname }}" %}
+<strong><a href="/tag/{{ tagname }}"><nobr>{{ tagname }}</nobr></a></strong> // 
+{% else %}
+<a href="/tag/{{ tagname }}"><nobr>{{ tagname }}</nobr></a> // 
+{% endif %}
+  
 {% endfor %}
