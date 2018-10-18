@@ -11,17 +11,17 @@ layout: default
 
 	<div class="meta clearfix">
 		
-		<strong>Autho:</strong><sup>En</sup> {{ page.author }}
+		<strong class="technical">Autho:</strong><sup>En</sup> {{ page.author }}
 		
 		
-		<br /><strong>Title:</strong><sup>En</sup> {{ page.title }}
+		<br /><strong class="technical">Title:</strong><sup>En</sup> {{ page.title }}
 
 		{% if page.resume %}
-			<br /><strong>Resume:</strong><sup>En</sup> {{ page.resume }}
+			<br /><strong class="technical">Resume:</strong><sup>En</sup> {{ page.resume }}
 		{% endif %}
 			
 		{% if page.tags %}
-			<br /><strong>Language, script:</strong>
+			<br /><strong class="technical">Language, script:</strong>
 		{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}
                         <a href="/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr></code></a>&nbsp;
                 {% endfor %}
@@ -32,11 +32,11 @@ layout: default
 		{% endif %}
 		
 		{% if page.ortitle %}
-			<br /><strong>Name:</strong> {{ page.ortitle }}
+			<br /><strong class="technical">Name:</strong> {{ page.ortitle }}
 		{% endif %}
 
 		{% if page.orauthor %}
-			<br /><strong>Author:</strong> {{ page.orauthor }}
+			<br /><strong class="technical">Author:</strong> {{ page.orauthor }}
 		{% endif %}
 		
 		{% if page.orresume %}
