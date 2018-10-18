@@ -7945,6 +7945,8 @@ code {
 }
 @media (max-width: 959px) {
   #header {
+    text-align: justify;
+    text-indent: 2em;
     margin-left: -20px;
     margin-right: -20px;
     padding: 10px;
@@ -8052,10 +8054,7 @@ code {
     padding: 10px;
 }
 
-@media (max-width: 959px) {
-  #footer {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding: 10px;
-  }
+#footer p {
+  text-align: justify;
+  text-indent: 2em;
 }
