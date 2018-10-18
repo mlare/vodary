@@ -2,5 +2,5 @@
 				<div class="item-image"><img src="/thumbnails/{{ post.thumbnail }}"></div>
 				<div class="item-name"><strong>{{ post.title }}</strong>, <i font-family:serif;>{{ post.author }}</i> //<br><strong>{{ post.ortitle }}</strong>, <i font-family:serif;>{{ post.orauthor }}</i><br>
 				{% if post.tags %}{% for tag in post.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}
-    				<a style="text-decoration:none;"; href="/tag/{{ tag_name }}"  class="technical"><nobr>{{ tag_name }}</nobr></a>&nbsp;{% endfor %}{% endif %}
+    				<a style="text-decoration:none;"; href="/tag/{{ tag_name }}"  class="tagged"><nobr>{{ tag_name }}</nobr></a>&nbsp;{% endfor %}{% endif %}
 				</div>
