@@ -8074,6 +8074,7 @@ code {
 
 .technical {
 font-family: "Istok Web", Helvetica, Arial, sans-serif;
-  font-size: 14px;/*14px*/
-  line-height: 20px; /*20px*/
+  font-size: 18px;/*14px*/
+  line-height: 26px; /*20px*/
+  color: #087d00;
 }
