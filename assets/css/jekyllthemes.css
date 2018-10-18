@@ -7903,7 +7903,7 @@ a.badge:focus {
   width: 250px;
   margin: 0 auto;
 }
-@media (max-width: 959px) {
+@media (max-width: 270px) {
   .wrap {
     width: auto;
     padding-right: 10px;
@@ -7923,8 +7923,8 @@ code {
   background-image: url(../img/bg.jpg);
   border-bottom: 0px solid #000;
   /*height: 220px;*/
-  margin-left: -20px;
-  margin-right: -20px;
+  margin-left: 20px;
+  margin-right: 20px;
   padding: 10px;
 }
 
@@ -8047,8 +8047,8 @@ code {
 #footer {
   margin-top: 30px;
   background-image: url(../img/bg.jpg);
-     margin-left: -20px;
-    margin-right: -20px;
+     margin-left: 20px;
+    margin-right: 20px;
     padding: 10px;
 }
 
