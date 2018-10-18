@@ -6,9 +6,9 @@
 {% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
 
 {% if page.url == "/index.html" %}
-<strong><a href="/tag/{{ tagname }}"><nobr>{{ tagname }}</nobr></a></strong> // 
+<strong><a href="/"><nobr>All</nobr></a></strong> // 
 {% else %}
-<a href="/tag/{{ tagname }}"><nobr>{{ tagname }}</nobr></a> // 
+<a href="/index.html"><nobr>All</nobr></a> // 
 {% endif %}
 
 {% for temptag in sortedtemptags %}
