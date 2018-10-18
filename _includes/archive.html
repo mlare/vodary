@@ -8,23 +8,12 @@
 
 
 
-content {{ page.content }}
-
-title {{ page.title }}
-
-excerpt {{ page.excerpt }}
-
-url {{ page.url }}
-
-id {{ page.id }}
-
-path {{ page.path }}
 
 
 
 
 
-{% if page.url == "/" %}
+{% if page.path == "index.html" %}
 <strong><a href="/"><nobr>All</nobr></a></strong> // 
 {% else %}
 <a href="/"><nobr>All</nobr></a> // 
