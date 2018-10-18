@@ -11,17 +11,17 @@ layout: default
 
 	<div class="meta clearfix">
 		
-		<div class="technical">Author:<sup>En</sup></div> {{ page.author }}
+		<span class="technical">Author:<sup>En</sup></span> {{ page.author }}
 		
 		
-		<br /><div class="technical">Title:</strong><sup>En</sup></div> {{ page.title }}
+		<br /><span class="technical">Title:</strong><sup>En</sup></span> {{ page.title }}
 
 		{% if page.resume %}
-			<br /><div class="technical">Resume:<sup>En</sup></div> {{ page.resume }}
+			<br /><span class="technical">Resume:<sup>En</sup></span> {{ page.resume }}
 		{% endif %}
 			
 		{% if page.tags %}
-			<br /><div class="technical">Language, script:</div>
+			<br /><span class="technical">Language, script:</span>
 		{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}
                         <a href="/tag/{{ tag_name }}" class="tagged"><nobr>{{ tag_name }}</nobr></code></a>&nbsp;
                 {% endfor %}
@@ -29,15 +29,15 @@ layout: default
                 <hr
 		
 		{% if page.ortitle %}
-			<br /><div class="technical">Name:</div> {{ page.ortitle }}
+			<br /><span class="technical">Name:</span> {{ page.ortitle }}
 		{% endif %}
 
 		{% if page.orauthor %}
-			<br /><div class="technical">Author:</div> {{ page.orauthor }}
+			<br /><span class="technical">Author:</span> {{ page.orauthor }}
 		{% endif %}
 		
 		{% if page.orresume %}
-			<br /><div class="technical">Resume:</div> {{ page.orresume }}
+			<br /><span class="technical">Resume:</span> {{ page.orresume }}
 		{% endif %}
 
 		<br /><br />
