@@ -1,6 +1,6 @@
 ---
-layout: forerunner
-title: Palička
-homepage: https://github.com/dougbeney/jekyll-pug-material
-thumbnail: jekyll-pug-material.png
+title: Biełaruskaja palička
+homepage: http://knihi.com
+thumbnail: belpalička.png
+description: Belarusan electronic library since 1996
 ---
