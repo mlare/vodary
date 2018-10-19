@@ -14,9 +14,5 @@ title: Our forerunners, in ideas and in technologies
   </div>
 {% endfor %}
 	
-</div>
-
-
-<div class="item">
-			
+</div>			
 		
