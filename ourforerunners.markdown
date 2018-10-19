@@ -8,7 +8,7 @@ title: Our forerunners, in ideas and in technologies
 <div class="gallery">
 	{% for post in site.forerunners %}
   <div class="item">
-  <a class="item-inner" href="{{ post.homepage }}">
+  <a class="item-inner" href="http://{{ post.homepage }}">
 				  {% include forerunners.html %}
 			</a>
   </div>
