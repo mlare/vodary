@@ -11,20 +11,20 @@ layout: default
 
 	<div class="meta clearfix">
 		
-		<p class="content"><span class="technical">Author:<sup>En</sup></span> {{ page.author }}</span></p>
-		<p class="content"><span class="technical">Title:</strong><sup>En</sup></span> {{ page.title }}</span></p>
-		{% if page.resume %}<p class="content"><span class="technical">Resume:<sup>En</sup></span> {{ page.resume }}</span></p>{% endif %}
+		<p class="bulk"><span class="technical">Author:<sup>En</sup></span> {{ page.author }}</span></p>
+		<p class="bulk"><span class="technical">Title:</strong><sup>En</sup></span> {{ page.title }}</span></p>
+		{% if page.resume %}<p class="bulk"><span class="technical">Resume:<sup>En</sup></span> {{ page.resume }}</span></p>{% endif %}
 			
-		{% if page.tags %}<p class="content"><span class="technical">Language, script:</span>
+		{% if page.tags %}<p class="bulk"><span class="technical">Language, script:</span>
 		{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}
                   <a href="/tag/{{ tag_name }}" class="tagged"><nobr>{{ tag_name }}</nobr></code></a>&nbsp;
                 {% endfor %}
 		</p>{% endif %}
                 <hr>
 		
-		{% if page.ortitle %}<p class="content"><span class="technical">Name:</span> {{ page.ortitle }}</span></p>{% endif %}
-		{% if page.orauthor %}<p class="content"><span class="technical">Author:</span> {{ page.orauthor }}</span></p>{% endif %}
-		{% if page.orresume %}<p class="content"><span class="technical">Resume:</span> {{ page.orresume }}</span></p>{% endif %}
+		{% if page.ortitle %}<p class="bulk"><span class="technical">Name:</span> {{ page.ortitle }}</span></p>{% endif %}
+		{% if page.orauthor %}<p class="bulk"><span class="technical">Author:</span> {{ page.orauthor }}</span></p>{% endif %}
+		{% if page.orresume %}<p class="bulk"><span class="technical">Resume:</span> {{ page.orresume }}</span></p>{% endif %}
 
 		<br /><br />
 		{% if page.homepage %}<a class="btn" href="{{ page.homepage }}"><i class="icon-home"></i> Homepage</a>{% endif %}
