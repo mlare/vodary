@@ -12,47 +12,25 @@ layout: default
 	<div class="meta clearfix">
 		
 		<span class="technical">Author:<sup>En</sup></span> {{ page.author }}
-		
-		
 		<br /><span class="technical">Title:</strong><sup>En</sup></span> {{ page.title }}
-
-		{% if page.resume %}
-			<br /><span class="technical">Resume:<sup>En</sup></span> {{ page.resume }}
-		{% endif %}
+		{% if page.resume %}<br /><span class="technical">Resume:<sup>En</sup></span> {{ page.resume }}{% endif %}
 			
-		{% if page.tags %}
-			<br /><span class="technical">Language, script:</span>
+		{% if page.tags %}<br /><span class="technical">Language, script:</span>
 		{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}
-                        <a href="/tag/{{ tag_name }}" class="tagged"><nobr>{{ tag_name }}</nobr></code></a>&nbsp;
+                  <a href="/tag/{{ tag_name }}" class="tagged"><nobr>{{ tag_name }}</nobr></code></a>&nbsp;
                 {% endfor %}
 		{% endif %}
-                <hr
+                <hr>
 		
-		{% if page.ortitle %}
-			<br /><span class="technical">Name:</span> {{ page.ortitle }}
-		{% endif %}
-
-		{% if page.orauthor %}
-			<br /><span class="technical">Author:</span> {{ page.orauthor }}
-		{% endif %}
-		
-		{% if page.orresume %}
-			<br /><span class="technical">Resume:</span> {{ page.orresume }}
-		{% endif %}
+		{% if page.ortitle %}<br /><span class="technical">Name:</span> {{ page.ortitle }}{% endif %}
+		{% if page.orauthor %}<br /><span class="technical">Author:</span> {{ page.orauthor }}{% endif %}
+		{% if page.orresume %}<br /><span class="technical">Resume:</span> {{ page.orresume }}{% endif %}
 
 		<br /><br />
-		{% if page.homepage %}
-			<a class="btn" href="{{ page.homepage }}"><i class="icon-home"></i> Homepage</a>
-		{% endif %}
-		{% if page.download %}
-			<a class="btn" href="{{ page.download }}"><i class="icon-download-alt"></i> Download</a>
-		{% endif %}
-		{% if page.demo %}
-			<a class="btn" href="{{ page.demo }}"><i class="icon-road"></i> Demo</a>
-		{% endif %}
-		{% if page.license_link %}
-			<a class="btn" href="{{ page.license_link }}"><i class="icon-file"></i> License</a>
-		{% endif %}
+		{% if page.homepage %}<a class="btn" href="{{ page.homepage }}"><i class="icon-home"></i> Homepage</a>{% endif %}
+		{% if page.download %}<a class="btn" href="{{ page.download }}"><i class="icon-download-alt"></i> Download</a>{% endif %}
+		{% if page.demo %}<a class="btn" href="{{ page.demo }}"><i class="icon-road"></i> Demo</a>{% endif %}
+		{% if page.license_link %}<a class="btn" href="{{ page.license_link }}"><i class="icon-file"></i> License</a>{% endif %}
 	</div>
 
 
