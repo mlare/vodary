@@ -4,8 +4,10 @@ title: Our forerunners, in ideas and technology — Éditions Vodary, publisher 
 ---
 
 <div class="gallery">
-	{% for post in paginator.forerunners %}
-	        post
+	{% for post in site.pages %}
+	        {% if post.layout == "forerunner" %}
+			post.title
+		{% endif %}
 		<div class="item">
 			<a class="item-inner" href="{{ post.url }}">
 				  {% include forerunners.html %}
