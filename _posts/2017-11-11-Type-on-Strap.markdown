@@ -12,6 +12,7 @@ author: Ivan Mieliež
 orauthor: Іван Мележ
 thumbnail: type-on-strap.jpg
 tags: Belarusan·language Cyrillic·script
+keywords: беларускае выдавецтва ў Парыжы, белорусское издательство в Париже
 license: MIT License
 license_link: https://github.com/Sylhare/Type-on-Strap/blob/master/LICENSE
 ---
