@@ -11,9 +11,9 @@ layout: default
 
 	<div class="meta clearfix">
 		
-		<span class="technical">Author:<sup>En</sup></span> {{ page.author }}
-		<br /><span class="technical">Title:</strong><sup>En</sup></span> {{ page.title }}
-		{% if page.resume %}<br /><span class="technical">Resume:<sup>En</sup></span> {{ page.resume }}{% endif %}
+		<span class="technical">Author:<sup>En</sup></span> <span style="text-align:justify;">{{ page.author }}</span>
+		<br /><span class="technical">Title:</strong><sup>En</sup></span> <span style="text-align:justify;">{{ page.title }}</span>
+		{% if page.resume %}<br /><span class="technical">Resume:<sup>En</sup></span> <span style="text-align:justify;">{{ page.resume }}</span>{% endif %}
 			
 		{% if page.tags %}<br /><span class="technical">Language, script:</span>
 		{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}
@@ -22,9 +22,9 @@ layout: default
 		{% endif %}
                 <hr>
 		
-		{% if page.ortitle %}<br /><span class="technical">Name:</span> {{ page.ortitle }}{% endif %}
-		{% if page.orauthor %}<br /><span class="technical">Author:</span> {{ page.orauthor }}{% endif %}
-		{% if page.orresume %}<br /><span class="technical">Resume:</span> {{ page.orresume }}{% endif %}
+		{% if page.ortitle %}<br /><span class="technical">Name:</span> <span style="text-align:justify;">{{ page.ortitle }}{% endif %}</span>
+		{% if page.orauthor %}<br /><span class="technical">Author:</span> <span style="text-align:justify;">{{ page.orauthor }}{% endif %}</span>
+		{% if page.orresume %}<br /><span class="technical">Resume:</span> <span style="text-align:justify;">{{ page.orresume }}{% endif %}</span>
 
 		<br /><br />
 		{% if page.homepage %}<a class="btn" href="{{ page.homepage }}"><i class="icon-home"></i> Homepage</a>{% endif %}
