@@ -8,16 +8,6 @@ title: Our forerunners, in ideas and technology — Éditions Vodary, publisher 
   {{ forerunner.title }}
 {% endfor %}
 	
-	{% for post in site.pages %}
-	        {% if post.layout == "forerunner" %}
-			post.title
-		{% endif %}
-		<div class="item">
-			<a class="item-inner" href="{{ post.url }}">
-				  {% include forerunners.html %}
-			</a>
-		</div>
-	{% endfor %}
 </div>
 
 
