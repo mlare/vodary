@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Our forerunners, in ideas and technology — Éditions Vodary, publisher in Paris
+title: Our forerunners, in ideas and technology
 ---
 
 # {{ page.title }}
 
 <div class="gallery">
-	{% for forerunner in site.forerunners %}
-  {{ forerunner.title }}
+	{% for post in site.forerunners %}
+  {{ include forerunners.html }}
 {% endfor %}
 	
 </div>
