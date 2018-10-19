@@ -8016,6 +8016,8 @@ code {
 }
 .gallery div.item .item-name {
   text-align: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 .gallery div.item .item-inner,
 .gallery div.item .item-inner:hover {
