@@ -16,18 +16,7 @@
 
 <body>
 
-
-
- 
-
-
-  <header id="header" height:unset; background-image:unset; background:pink;>
-    <div class="wrap">
-      <a style="text-decoration : none; color : #000;"; href="/"><div><h1 id="logo"><img src="/assets/img/Logo.svg" width="250px"; style="display: block; margin: 0 auto; padding-top: 10px;"></h1></div>
-      <br><div><p>{{ site.description }}</p><div></a>
-
-    </div>
-  </header>
+  {% include header.html %}
 
  <!---<div class="banner72">
    <a href="http://www.ens.fr/actualites/decouvrez-le-parcours-humanites-numeriques-l-ens" target="_blank">Publicité.<br>Découvrez le parcours <strong>Humanités numériques</strong> à l'ENS</a>
@@ -35,52 +24,19 @@
 
   <div id="pagecontainer" class="container">
 
-
-
-    <!---<div class="hero-unit" style="display: block;box-shadow: 5px 5px 20px 0px #525252;" ></div> -->
-      
-    
- 
-    <div class="hero-unit" style="display: block;" ><span style="technical"><strong>Browse by languages and scripts:</strong> {% include archive.html %}</span>
-    </div>    
-    
+    <div class="hero-unit" style="display: block;" >
+     <span style="technical">
+       <strong>Browse by languages and scripts:</strong>
+       {% include archive.html %}
+     </span>
+   </div>    
+   
     <div id="content">
-
-
         {{ content }}
-
-
     </div>
-
-
   </div>
 
-
-
-  <footer id="footer">
-    <div class="container">
-      <div class="row">
-
-        <div class="span5 copyright">
-          <h3>Éditions Vodary Paris</h3>
-          <p>The pub­li­shing plat­form <a href="https://vodary.fias.fr">Vodary Paris</a> (in French, la plate­forme d'<strong>édi­tion</strong> en <strong>v</strong>er­sion <strong>o</strong>ri­gi­nale, de <strong>d</strong>if­fu­sion et d'<strong>ar</strong>­chi­vage <strong>i</strong>n­for­ma­tique, abbr. Éditions Vodary)
-        is an open-access pub­li­shing house based in Paris backed by the re­search in­sti­tute <a href="https://fias.fr">FIAS</a>. Its focus are li­te­ra­ry works of the world li­te­ra­tures, di­verse in their lan­guages and scripts. &copy; {{ site.time | date: '%Y' }} Éditions Vodary, Paris.</p>
-        </div>
-
-        <div class="span7">
-          <h3>Want to see some material published?</h3>
-          <ul>
-            <li>Send us an email to <a href="mailto:vodary.suggerer@fias.fr">vodary.suggerer@fias.fr</a> de­scri­bing the ma­te­ri­al, its lan­guage and gra­phic sys­tem and its author­ship.</li>
-            <li>We (the open-min­ded edi­to­ri­al com­mit­tee) will exa­mine the pos­si­bi­li­ty to pub­lish it.</li>
-            <li>Non-tri­vi­al lan­guages and gra­phic sys­tems, un­usu­al genres and forms are wel­come.</li>
-            <li>If you are an author, please con­si­der our open-access <a href="https://fias.fr/publishing">edi­to­ri­al guide­lines</a>.</li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </footer>
-
+  {% include footer.html %}
 
 
 </body>
