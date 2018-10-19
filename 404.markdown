@@ -9,7 +9,7 @@ title: 404
 
 [Browse our books](/)
 
-MIDWAY upon the journey of our life<br>
+Midway upon the journey of our life<br>
 I found myself within a forest dark,<br>
 For the straightforward pathway had been lost.
 
@@ -23,4 +23,6 @@ Speak will I of the other things I saw there.
 
 I cannot well repeat how there I entered,<br>
 So full was I of slumber at the moment<br>
-⁠In which I had abandoned the true way.<br>
+⁠In which I had abandoned the true way.
+
+*Alighieri — Longfellow* (1321, 1867)
