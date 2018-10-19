@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Our forerunners, in ideas and technology
+title: Our forerunners, in ideas and in technologies
 ---
 
 # {{ page.title }}
