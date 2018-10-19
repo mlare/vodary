@@ -1,6 +1,6 @@
 ---
 title: Biełaruskaja palička
 homepage: http://knihi.com
-thumbnail: belpalička.png
+thumbnail: palička.png
 description: Belarusan electronic library since 1996
 ---
