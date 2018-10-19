@@ -15,3 +15,6 @@ rdiscount:
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
 include: ['_redirects']
+
+collections:
+    forerunners
