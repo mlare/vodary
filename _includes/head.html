@@ -1,16 +1,6 @@
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }}
-    {% if page.author %}
-    , {{ page.author }}
-    {% endif %}
-    {% if page.ortitle %}
-    // {{ page.ortitle }}
-    {% endif %}
-    {% if page.orauthor %}
-    , {{ page.orauthor }}
-    {% endif %}
-     — {{ site.name }}</title>
+  <title>{{ page.title }}{% if page.author %}, {{ page.author }}{% endif %}{% if page.ortitle %} // {{ page.ortitle }}{% endif %}{% if page.orauthor %}, {{ page.orauthor }}{% endif %} — {{ site.name }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ page.resume }}{% if page.orresume %} // {{ page.orresume }}{% endif %}">
   <meta name="keywords" content="{{ page.keywords }}">
