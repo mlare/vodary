@@ -8092,3 +8092,9 @@ font-family: "Istok Web", Helvetica, Arial, sans-serif;
   color: #45885a;
   font-weight: normal;
 }
+
+
+p .content  {
+  text-align: justify;
+  margin: 0 0 0;
+}
