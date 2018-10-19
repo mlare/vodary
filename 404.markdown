@@ -3,8 +3,6 @@ layout: default
 title: 404
 ---
 
-<h1>mbiuhser</h1>
-
 #  Error 404 Page not found
 
 ## We broke this page, or it doesn’t exist
