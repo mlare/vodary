@@ -4,6 +4,10 @@ title: Our forerunners, in ideas and technology — Éditions Vodary, publisher 
 ---
 
 <div class="gallery">
+	{% for forerunner in site.forerunners %}
+  {{ forerunner.title }}
+{% endfor %}
+	
 	{% for post in site.pages %}
 	        {% if post.layout == "forerunner" %}
 			post.title
