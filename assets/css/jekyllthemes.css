@@ -8085,8 +8085,8 @@ font-family: "Istok Web", Helvetica, Arial, sans-serif;
 
 .tagged {
 font-family: "Istok Web", Helvetica, Arial, sans-serif;
-  font-size: 18px;/*14px*/
+  font-size: 16px;/*14px*/
   line-height: 26px; /*20px*/
-  color: #087d00;
-  font-weight: bold;
+  color: #45885a;
+  font-weight: normal;
 }
