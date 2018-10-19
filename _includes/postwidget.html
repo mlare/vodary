@@ -1,6 +1,6 @@
 
 <div class="item-image"><img src="/thumbnails/{{ post.thumbnail }}"></div>
-<div class="item-name">
+<div class="item-name" style="margin-bottom:10px";>
 {% if post.tags %}{% for tag in post.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}
 <span class="tagged"><nobr>{{ tag_name }}</nobr></span>&nbsp;{% endfor %}{% endif %}</div>
 <div class="item-name">
