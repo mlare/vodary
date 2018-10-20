@@ -13,7 +13,7 @@ author:
 <div class="gallery">
 	{% for post in site.forerunners %}
   <div class="item">
-  <a class="item-inner" href="http://{{ post.homepage }}">
+  <a class="item-inner" href="http://{{ post.homepage }}" target="_blank">
 				  {% include forerunners.html %}
 			</a>
   </div>
