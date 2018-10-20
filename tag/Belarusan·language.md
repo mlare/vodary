@@ -7,4 +7,4 @@ resume: Éditions Vodary Paris, books in Belarusan language
 author: 
 ---
 
-Publishing editor of this series: *Maxime Seveleu-Dubrovnik*, PhD
+<p>Publishing editor of this series: <strong>Maxime Seveleu-Dubrovnik</strong>, PhD</p>
