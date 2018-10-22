@@ -8,7 +8,7 @@ date: 2017-11-21 07:00:00
 homepage: 
 download: 
 demo: 
-author: Ivan Mieliež
+author: Ivan Mielež
 orauthor: Іван Мележ
 thumbnail: na-kamiecie.jpg
 tags: Belarusan·language Cyrillic·script
