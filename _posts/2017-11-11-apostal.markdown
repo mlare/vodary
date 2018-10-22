@@ -3,7 +3,7 @@ layout: post
 title: The blunted apostle
 ortitle: Zaciukany apostal
 resume: There were white out conditions in the town; subsequently, the roads were impassable.
-orresume: Kali da Vasila Taruki pryjškło kachańnie, jamu ŭžo było tryccać hadoŭ — žyćcio skončana. Kab nia źjechać z hluzdu, jon stanovicca dendrołaham u viaršynavych Alpach i pačynaje daśledvanni. U harach jon vypadkova sustrakaje Zinaïdu Michajłaŭnu Guzik z Maładziečna, jakaja pajšła pa hryby i zhubiłasia. Hetaja sustreča dazvalaje jamu adčynić varaty ŭśviedamlennia i zrušyć kropku zborki.
+orresume: Kali da Vasila Taruki pryjškło kachańnie, jamu ŭžo było tryccać hadoŭ — žyćcio skončana. Kab nia źjechać z hluzdu, jon stanovicca dendrołaham u viaršynavych Alpach i pačynaje daśledvanni. U harach jon vypadkova sustrakaje Zinaïdu Michajłaŭnu Guzik z Maładziečna, jakaja pajšła pa hryby i zhubiłasia. Hetaja sustreča dazvalaje jamu adčynić varaty ŭśviedamlennia i zrušyć kropku zborki.<br><strong>This is a placeholder book, it isn't real!</stron>
 date: 2017-11-11 07:00:00
 homepage: 
 download: 
@@ -16,5 +16,3 @@ keywords: беларускае выдавецтва ў Парыжы, белор�
 license: MIT License
 license_link: https://github.com/Sylhare/Type-on-Strap/blob/master/LICENSE
 ---
-
-This is a placeholder book, it isn't real!
