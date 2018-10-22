@@ -10,7 +10,7 @@ download:
 demo: 
 author: Leila Anvar
 orauthor: Leylā-ye Anvār
-thumbnail: esfajan2.png
+thumbnail: esfahan2.png
 tags: Persian·language Latin·script
 keywords: persian editor in paris
 license: MIT License

@@ -10,7 +10,7 @@ download:
 demo: 
 author: Leila Anvar
 orauthor: لیلا انوار
-thumbnail: esfahan2.png
+thumbnail: esfahan.png
 tags: Persian·language Arabic·script
 keywords: persian editor in Paris
 license: MIT License
