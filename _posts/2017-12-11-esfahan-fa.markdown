@@ -9,7 +9,7 @@ homepage:
 download: 
 demo: 
 author: Leila Anvar
-orauthor: لیلا انوار
+orauthor: لیلای انوار
 thumbnail: esfahan.png
 tags: Persian·language Arabic·script
 keywords: persian editor in Paris
