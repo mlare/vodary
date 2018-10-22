@@ -16,3 +16,5 @@ keywords: беларускае выдавецтва ў Парыжы, белор�
 license: MIT License
 license_link: https://github.com/Sylhare/Type-on-Strap/blob/master/LICENSE
 ---
+
+This is a placeholder book, it isn't real!
