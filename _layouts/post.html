@@ -33,7 +33,14 @@ layout: default
 		{% if page.license_link %}<a class="btn" href="{{ page.license_link }}"><i class="icon-file"></i> License</a>{% endif %}
                 --->
 	</div>
-
+ 
+          <div class="hero-unit" style="display: block; margin: 0 auto;width: 150px;text-align:  center;" >
+         <span style="technical">
+           Other books:<br>
+           {% if page.next.url %}<a class="prev" href="{{page.next.url}}">&laquo; <strong>Back</strong></a>{% endif %}
+           {% if page.previous.url %}    <a class="next" href="{{page.previous.url}}"><strong>Forth</strong> &raquo;</a>{% endif %}
+         </span>
+      </div>
 
 	<div class="post-content">
 	{{ content }}
