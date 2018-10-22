@@ -8,8 +8,8 @@ date: 2017-11-15 07:00:00
 homepage: 
 download: 
 demo: 
-author: Leila Anvar
-orauthor: Leylā-ye Anvār
+author: Leila Anvar
+orauthor: Leylā-ye Anvār
 thumbnail: esfahan2.png
 tags: Persian·language Latin·script
 keywords: persian editor in paris

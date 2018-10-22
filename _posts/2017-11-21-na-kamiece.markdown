@@ -10,7 +10,7 @@ download:
 demo: 
 author: Ivan Mieliež
 orauthor: Іван Мележ
-thumbnail: na-kamiecie.png
+thumbnail: na-kamiecie.jpg
 tags: Belarusan·language Cyrillic·script
 keywords: беларускае выдавецтва ў Парыжы, белорусское издательство в Париже
 license: MIT License

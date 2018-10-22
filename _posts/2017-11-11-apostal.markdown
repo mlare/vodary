@@ -8,9 +8,9 @@ date: 2017-11-11 07:00:00
 homepage: 
 download: 
 demo: 
-author: Andrei Makayonak
-orauthor: Andrei Makajonak
-thumbnail: zaciukany-apostal.png
+author: Andrei Makayonak
+orauthor: Andrei Makajonak
+thumbnail: zaciukany-apostal.jpg
 tags: Belarusan·language Latin·script
 keywords: беларускае выдавецтва ў Парыжы, белорусское издательство в Париже
 license: MIT License
