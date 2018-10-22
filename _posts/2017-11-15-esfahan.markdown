@@ -3,7 +3,7 @@ layout: post
 title: Isfahan, half of my world
 ortitle: Esfahān, nesf‑e jahān‑am
 resume: An adventure story about a sterling and his metallic coating, and how the metal rusting was perceived in the 50s.
-orresume: Polis‌hā sāat‌hā eqāmatgāh-e tām rā gaštand, ammā natavānestand ciz-i biyāband. Tām eddeā kard ke nemi‌dāneste xāne‌-ye sāheli‌-yaš barā-ye fa’āliyat‌hā-ye qeyreqānuni estefāde mi‌šode-ast. Tābestān-e gozašte, bel’axare man šerkati rā ke bist sāl-e piš be ān molhaq šode bud-am, tark kardam.
+orresume: Polis‌hā sāat‌hā eqāmatgāh-e tām rā gaštand, ammā natavānestand ciz-i biyāband. Tām eddeā kard ke nemi‌dāneste xāne‌-ye sāheli‌-yaš barā-ye fa’āliyat‌hā-ye qeyreqānuni estefāde mi‌šode-ast. Tābestān-e gozašte, bel’axare man šerkati rā ke bist sāl-e piš be ān molhaq šode bud-am, tark kardam.<br><strong>This is a placeholder book, it isn't real!</strong>
 date: 2017-11-15 07:00:00
 homepage: 
 download: 
@@ -16,5 +16,3 @@ keywords: persian editor in paris
 license: MIT License
 license_link: https://github.com/Sylhare/Type-on-Strap/blob/master/LICENSE
 ---
-
-This is a placeholder book, it isn't real!
