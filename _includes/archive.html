@@ -25,9 +25,9 @@
 
 {% assign newvar = 'tag/' | append: tagname | append: '.md' %}
 {% if page.path == newvar %}
-<strong><a href="/tag/{{ tagname }}" style="color:black;"><nobr>{{ tagname }}</nobr></a></strong> // 
+<strong><a href="/tag/{{ tagname }}" style="color:black;"><nobr>{{ tagname }}</nobr></a></strong> // 
 {% else %}
-<a href="/tag/{{ tagname }}"><nobr>{{ tagname }}</nobr></a> // 
+<a href="/tag/{{ tagname }}"><nobr>{{ tagname }}</nobr></a> // 
 {% endif %}
   
 {% endfor %}
