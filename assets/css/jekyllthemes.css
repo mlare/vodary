@@ -8039,9 +8039,9 @@ code {
   width: 960px;
 }
 .post-content {
-  margin-top: 20px;
+  /*margin-top: 20px;
   padding-top: 25px;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #ddd;*/
 }
 .postthumb {
   float: left;
