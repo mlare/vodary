@@ -22,9 +22,9 @@ layout: default
 		</p>{% endif %}
                 <hr>
 		
-		{% if page.ortitle %}<p class="bulk"><span class="technical">Title:</span> {{ page.ortitle }}</span></p>{% endif %}
-		{% if page.orauthor %}<p class="bulk"><span class="technical">Author:</span> {{ page.orauthor }}</span></p>{% endif %}
-		{% if page.orresume %}<p class="bulk"><span class="technical">Resume:</span> {{ page.orresume }}</span></p>{% endif %}
+		{% if page.ortitle %}<p class="bulk"><span class="technical">Title:</span> <span {% if page.tags contains "Arabic·script" %}class="arabic"{% endif %}>{{ page.ortitle }}</span></p>{% endif %}
+		{% if page.orauthor %}<p class="bulk"><span class="technical">Author:</span> <span {% if page.tags contains "Arabic·script" %}class="arabic"{% endif %}>{{ page.orauthor }}</span></p>{% endif %}
+		{% if page.orresume %}<p class="bulk"><span class="technical">Resume:</span> <span {% if page.tags contains "Arabic·script" %}class="arabic"{% endif %}>{{ page.orresume }}</span></p>{% endif %}
 
 		<!---
 		{% if page.homepage %}<a class="btn" href="{{ page.homepage }}"><i class="icon-home"></i> Homepage</a>{% endif %}
