@@ -16,3 +16,5 @@ keywords: persian editor in Paris
 license: MIT License
 license_link: https://github.com/Sylhare/Type-on-Strap/blob/master/LICENSE
 ---
+
+![](/thumbnails/sdssd.png)
