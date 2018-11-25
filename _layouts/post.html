@@ -21,7 +21,8 @@ layout: default
                   <a href="/tag/{{ tag_name }}" class="tagged"><nobr>{{ tag_name }}</nobr></code></a>&nbsp;
                 {% endfor %}
 		</p>{% endif %}
-                <hr>
+        
+        {% if page.ortitle %}<hr>{% endif %}
 		
 		{% if page.ortitle %}<p class="bulk"><span class="technical">Title:</span> <span {% if page.tags contains "Arabic·script" %}class="arabic"{% endif %}>{{ page.ortitle }}</span></p>{% endif %}
 		{% if page.orauthor %}<p class="bulk"><span class="technical">Author:</span> <span {% if page.tags contains "Arabic·script" %}class="arabic"{% endif %}>{{ page.orauthor }}</span></p>{% endif %}
