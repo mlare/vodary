@@ -8,7 +8,7 @@ layout: default
 
 	<h1>{{ page.title }}, <i style="font-weight:normal;">{{ page.author }}</i> <i color:#aaaaaa;>{% if page.ortitle %}//{% endif %}</i></h1> 
 	{% if page.ortitle %}
-	<h1><span {% if page.tags contains "Arabic·script" %}class="arabic"{% endif %}>{{ page.ortitle }}, <i style="font-weight:normal;{% if page.tags contains "Arabic·script" %}font-style:normal;{% endif %}">{{ page.orauthor }}</i></span></h1>{% endif %}
+	<h1><span {% if page.tags contains "Arabic·script" %}class="arabic"{% endif %}>{{ page.ortitle }}{% if post.tags contains "Arabic·script" %}،{% else %},{% endif %} <i style="font-weight:normal;{% if page.tags contains "Arabic·script" %}font-style:normal;{% endif %}">{{ page.orauthor }}</i></span></h1>{% endif %}
 
 	<div class="meta clearfix">
 		
