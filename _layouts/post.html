@@ -34,7 +34,7 @@ layout: default
                 --->
 
 		{% if page.editor %}<p class="bulk"><span class="technical">Editor:</span> {{ page.editor }} {% if page.editorpic %}<img width="20%" src="/thumbnails/{{ page.editorpic }}" />{% endif %}</p>{% endif %}
-		
+		{% if page.isbn %}<p class="bulk"><span class="technical">ISBN:</span> <a target="_blank" href="https://www.amazon.com/gp/search/?field-isbn={{ page.isbn }}">{{ page.isbn }}</a></p>{% endif %}		
 	</div>
  
           <div class="hero-unit" style="display: block; margin: 0 auto;width: 150px;text-align:  center;" >
