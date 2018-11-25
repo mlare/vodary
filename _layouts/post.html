@@ -11,9 +11,9 @@ layout: default
 
 	<div class="meta clearfix">
 		
-		<p class="bulk"><span class="technical">Author:<sup>En</sup></span> {{ page.author }}</span></p>
-		<p class="bulk"><span class="technical">Title:</strong><sup>En</sup></span> {{ page.title }}</span></p>
-		{% if page.resume %}<p class="bulk"><span class="technical">Resume:<sup>En</sup></span> {{ page.resume }}</span></p>{% endif %}
+		<p class="bulk"><span class="technical">Author:<sup>En</sup></span> {{ page.author }}</p>
+		<p class="bulk"><span class="technical">Title:</strong><sup>En</sup></span> {{ page.title }}</p>
+		{% if page.resume %}<p class="bulk"><span class="technical">Resume:<sup>En</sup></span> {{ page.resume }}</p>{% endif %}
 			
 		{% if page.tags %}<p class="bulk"><span class="technical">Language, script:</span>
 		{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}
@@ -32,6 +32,9 @@ layout: default
 		{% if page.demo %}<a class="btn" href="{{ page.demo }}"><i class="icon-road"></i> Demo</a>{% endif %}
 		{% if page.license_link %}<a class="btn" href="{{ page.license_link }}"><i class="icon-file"></i> License</a>{% endif %}
                 --->
+
+		{% if page.editor %}<p class="bulk"><span class="technical">Editor:</span> {{ page.editor }}</p>{% endif %}
+		{% if page.editorpic %}<p class="bulk"><span class="technical">Editor's logo:</span> <img src="/thumbnails/{{ page.editorpic }}" /></p>{% endif %}
 	</div>
  
           <div class="hero-unit" style="display: block; margin: 0 auto;width: 150px;text-align:  center;" >
