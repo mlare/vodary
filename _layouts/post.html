@@ -10,14 +10,6 @@ layout: default
 	{% if page.ortitle %}
 	<h1><span {% if page.tags contains "Arabic·script" %}class="arabic"{% endif %}>{{ page.ortitle }}{% if page.tags contains "Arabic·script" %}،{% else %},{% endif %} <i style="font-weight:normal;{% if page.tags contains "Arabic·script" %}font-style:normal;{% endif %}">{{ page.orauthor }}</i></span></h1>{% endif %}
 
-	{% if page.next.url %}
-	<a href="{{ page.readonline }}"><div class="hero-unit" style="display: block; margin: 0 auto;width: 150px;text-align:  center;" >
-         <span style="technical">
-           Read online
-         </span>
-        </div></a>
- 	{% endif %}
-	
 	<div class="meta clearfix">
 		
 		<p class="bulk"><span class="technical">Author:<sup>En</sup></span> {{ page.author }}</p>
@@ -46,6 +38,15 @@ layout: default
 		{% if page.editor %}<p class="bulk"><span class="technical">Editor:</span> {{ page.editor }} {% if page.editorpic %}<img width="20%" src="/thumbnails/{{ page.editorpic }}" />{% endif %}</p>{% endif %}
 		{% if page.isbn %}<p class="bulk"><span class="technical">ISBN:</span> <a target="_blank" href="https://www.amazon.com/gp/search/?field-isbn={{ page.isbn }}">{{ page.isbn }}</a></p>{% endif %}		
 	</div>
+
+	{% if page.readonline %}
+	<a href="{{ page.readonline }}"><div class="hero-unit" style="display: block; margin: 0 auto;width: 150px;text-align:  center; background: #e4eff5;" >
+         <span style="technical">
+           <strong>Read online</strong>
+         </span>
+        </div></a>
+ 	{% endif %}
+	
 
         {% if page.content %}<hr>{% endif %}
 		<div class="post-content">
