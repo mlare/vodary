@@ -3,15 +3,15 @@ layout: default
 title: 404
 ---
 
-#  Error 404: Page not found
+Midway upon the journey of our life<br>
+I found myself within a forest dark,<br>
+For the straightforward pathway had been lost.
+
+#  Error 404: Path not found
 
 ## We broke this page, or it doesn’t exist
 
 [Browse our books](/)
-
-Midway upon the journey of our life<br>
-I found myself within a forest dark,<br>
-For the straightforward pathway had been lost.
 
 Ah me! how hard a thing it is to say<br>
 ⁠What was this forest savage, rough, and stern,<br>
