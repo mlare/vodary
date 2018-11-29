@@ -10,6 +10,14 @@ layout: default
 	{% if page.ortitle %}
 	<h1><span {% if page.tags contains "Arabic·script" %}class="arabic"{% endif %}>{{ page.ortitle }}{% if page.tags contains "Arabic·script" %}،{% else %},{% endif %} <i style="font-weight:normal;{% if page.tags contains "Arabic·script" %}font-style:normal;{% endif %}">{{ page.orauthor }}</i></span></h1>{% endif %}
 
+	{% if page.next.url %}
+	<a href="{{ page.readonline }}"><div class="hero-unit" style="display: block; margin: 0 auto;width: 150px;text-align:  center;" >
+         <span style="technical">
+           Read online
+         </span>
+        </div></a>
+ 	{% endif %}
+	
 	<div class="meta clearfix">
 		
 		<p class="bulk"><span class="technical">Author:<sup>En</sup></span> {{ page.author }}</p>
@@ -51,7 +59,5 @@ layout: default
            {% if page.previous.url %}    <a class="next" href="{{page.previous.url}}"><strong>Forth</strong> &raquo;</a>{% endif %}
          </span>
       </div>
-
-
 
 </div>
