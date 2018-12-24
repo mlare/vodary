@@ -7,16 +7,13 @@ resume: Éditions Vodary Paris, books in Belarusan language
 author: 
 ---
 
-<p>Publishing editor of the series: <strong><a href="https://seveleu.com" target="_blank">Maxime Seveleu-Dubrovnik</a></strong>, PhD.</p>
-
-
 <div class="tabset">
   <!-- Tab 1 -->
-  <input type="radio" name="tabset" id="tab1" aria-controls="en" checked>
-  <label for="tab1">in English</label>
-  <!-- Tab 2 -->
-  <input type="radio" name="tabset" id="tab2" aria-controls="bel">
+  <input type="radio" name="tabset" id="tab1" aria-controls="bel">
   <label for="tab2">па-беларуску</label>
+  <!-- Tab 2 -->
+  <input type="radio" name="tabset" id="tab2" aria-controls="en" checked>
+  <label for="tab1">in English</label>
   <!-- Tab 3 -->
   <input type="radio" name="tabset" id="tab3" aria-controls="rus">
   <label for="tab3">по-русски</label>
@@ -27,7 +24,7 @@ author:
 <p><strong>Pragmatic</strong>: to provide overseas Belarusians with printed literature while not tying the manufacturing, distribution and sales processes to the metropolitan Belarus.</p>
 <p><strong>Scientific</strong>: to publish research in the areas of Belarusan linguistics, historiography, social studies, ethnography, as well as dictionaries, reference books, etc.</p>
 <p><strong>Regulatory and standardizing</strong>: the Belarusian language benefits from three graphic systems, while only Cyrillic is used on a daily basis. We aim to renew the use of the Belarusian Latin script and to re-found its secular Arabic script (secular &mdash; not motivated by religious needs) through the publication of the main Belarusian culture-forming texts via these protocols.</p>
-<p>Publishing editor of the series: <strong>Maxim</strong><strong>e</strong><strong> Sevele</strong><strong>u</strong><strong>-Dubrovnik</strong>, Ph.D.</p>
+<p>Publishing editor of the series: <strong><a href="https://seveleu.com" target="_blank">Maxime Seveleu-Dubrovnik</a></strong>, PhD.</p>
 <p>The site is late in its updates, the discrepancy will be eliminated before March 2019.</p>
   </section>
     <section id="bel" class="tab-panel">
@@ -35,7 +32,7 @@ author:
 <p><strong>Прагматычныя</strong>: забяспечваць друкаванай літаратурай беларускае замежжа не завязваючы працэсы вырабніцтва, распаўсюджвання (дыстрыбуцыі) і рэалізацыі (продажу) на метраполію Беларусі.</p>
 <p><strong>Навуковыя</strong>: публікаваць навуковыя распрацоўкі ў галінах беларускага мовазнаўства, гісторыяграфіі, грамадазнаўства, этнаграфіі, а таксама слоўнікі, даведнікі і г.д.</p>
 <p><strong>Нарматы</strong><strong>ў</strong><strong>на-стандартызуючая</strong>: беларуская мова мае тры графічныя сістэмы, з якіх у распрацаваным ужытку знаходзіцца толькі <em>кірылічная</em>. Мы ставім на мэту аднавіць узус <em>лацінскае</em> графікі беларускае мовы і заснаваць яе лаічную <em>арабіцу</em> (лаічную &mdash; не матываваную рэлігійнымі патрэбамі) праз выдаўніцтва галоўных беларусаўтваральных твораў у гэтых графіках.</p>
-<p>Выдаўнічы рэдактар серыі: <strong>Максім Севеле</strong><strong>ў-</strong><strong>Дубро</strong><strong>ў</strong><strong>нік</strong>, к.ф.н.</p>
+<p>Выдаўнічы рэдактар серыі: <strong><a href="https://seveleu.com" target="_blank">Максім Севелеў-Дуброўнік</a></strong>, к.ф.н.</p>
 <p>Сайт знаходзіцца ў некаторым спазненні ў публікацыі, яно будзе выпраўлена да сакавіка 2019.</p>
     </section>
     <section id="rus" class="tab-panel">
@@ -43,7 +40,7 @@ author:
 <p><strong>Прагматические</strong>: обеспечивать печатной литературой белорусское зарубежье не завязывая процессы изготовления, распространения (дистрибуции) и реализации (продажи) на метрополию Беларуси.</p>
 <p><strong>Научные</strong>: публиковать научные разработки в областях языкознания, историографии, обществоведения, этнографии, а также словари, справочники и т.д.</p>
 <p><strong>Нормативно-стандартизирующая</strong>: белорусский язык располагает тремя графическими системами, из которых в разработанном обиходе находится только <em>кириллическая</em>. Мы ставим целью возобновить узус <em>латинской</em> графики белорусского языка и основать ее лаическую <em>арабицу</em> (светскую &mdash; не мотивированную религиозными потребностями) посредством издания главных беларусообразующих произведений в этих графиках.</p>
-<p>Издающий редактор серии: <strong>Максим Севелев-Дубровник</strong>, к.ф.н.</p>
+<p>Издающий редактор серии: <strong><a href="https://seveleu.com" target="_blank">Максим Севелев-Дубровник</a></strong>, к.ф.н.</p>
 <p>Сайт находится опаздывает в публикации уже вышедших артикулов, это расхождение будет ликвидировано до марта 2019.</p>
     </section>
   </div>
