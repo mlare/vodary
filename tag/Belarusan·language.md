@@ -10,10 +10,10 @@ author:
 <div class="tabset">
   <!-- Tab 1 -->
   <input type="radio" name="tabset" id="tab1" aria-controls="bel" checked>
-  <label for="tab2">па-беларуску</label>
+  <label for="tab1">па-беларуску</label>
   <!-- Tab 2 -->
   <input type="radio" name="tabset" id="tab2" aria-controls="en">
-  <label for="tab1">in English</label>
+  <label for="tab2">in English</label>
   <!-- Tab 3 -->
   <input type="radio" name="tabset" id="tab3" aria-controls="rus">
   <label for="tab3">по-русски</label>
