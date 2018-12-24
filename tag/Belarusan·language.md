@@ -56,5 +56,3 @@ author:
   </div>
   
 </div>
-
-<p><small>Source: <cite><a href="https://www.bjcp.org/stylecenter.php">BJCP Style Guidelines</a></cite></small></p>
