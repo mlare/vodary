@@ -9,24 +9,16 @@ author:
 
 <div class="tabset">
   <!-- Tab 1 -->
-  <input type="radio" name="tabset" id="tab1" aria-controls="bel">
+  <input type="radio" name="tabset" id="tab1" aria-controls="bel" checked>
   <label for="tab2">па-беларуску</label>
   <!-- Tab 2 -->
-  <input type="radio" name="tabset" id="tab2" aria-controls="en" checked>
+  <input type="radio" name="tabset" id="tab2" aria-controls="en">
   <label for="tab1">in English</label>
   <!-- Tab 3 -->
   <input type="radio" name="tabset" id="tab3" aria-controls="rus">
   <label for="tab3">по-русски</label>
   
   <div class="tab-panels">
-    <section id="en" class="tab-panel">
-      <p>All Belarusian-language works of the publishing house &ldquo;Vodary Paris&rdquo; are grouped into the publishing series &ldquo;<em>Jamy, vulli i viry</em>&rdquo; (&ldquo;pits, beehives, whirlpools&rdquo;). This series was set up in 1517+500=2017, 500 years after Francis Skorina founded Belarusian bookprinting in Prague. The purposes of this initiative are multiple:</p>
-<p><strong>Pragmatic</strong>: to provide overseas Belarusians with printed literature while not tying the manufacturing, distribution and sales processes to the metropolitan Belarus.</p>
-<p><strong>Scientific</strong>: to publish research in the areas of Belarusan linguistics, historiography, social studies, ethnography, as well as dictionaries, reference books, etc.</p>
-<p><strong>Regulatory and standardizing</strong>: the Belarusian language benefits from three graphic systems, while only Cyrillic is used on a daily basis. We aim to renew the use of the Belarusian Latin script and to re-found its secular Arabic script (secular &mdash; not motivated by religious needs) through the publication of the main Belarusian culture-forming texts via these protocols.</p>
-<p>Publishing editor of the series: <strong><a href="https://seveleu.com" target="_blank">Maxime Seveleu-Dubrovnik</a></strong>, PhD.</p>
-<p>The site is late in its updates, the discrepancy will be eliminated before March 2019.</p>
-  </section>
     <section id="bel" class="tab-panel">
       <p>Усе беларускамоўныя творы выдавецтва &laquo;Водары&raquo; групуюцца ў выдавецкую серыю &laquo;<em>Ямы, вуллі і віры</em>&raquo;. Гэта серыя ўзнікла ў 1517+500=2017 годзе, праз 500 гадоў пасля заснавання беларускага кнігадрукавання Францыскам Скарынам у Празе. Функцыі гэтага выдаўніцтва шматбаковыя:</p>
 <p><strong>Прагматычныя</strong>: забяспечваць друкаванай літаратурай беларускае замежжа не завязваючы працэсы вырабніцтва, распаўсюджвання (дыстрыбуцыі) і рэалізацыі (продажу) на метраполію Беларусі.</p>
@@ -35,6 +27,14 @@ author:
 <p>Выдаўнічы рэдактар серыі: <strong><a href="https://seveleu.com" target="_blank">Максім Севелеў-Дуброўнік</a></strong>, к.ф.н.</p>
 <p>Сайт знаходзіцца ў некаторым спазненні ў публікацыі, яно будзе выпраўлена да сакавіка 2019.</p>
     </section>
+      <section id="en" class="tab-panel">
+      <p>All Belarusian-language works of the publishing house &ldquo;Vodary Paris&rdquo; are grouped into the publishing series &ldquo;<em>Jamy, vulli i viry</em>&rdquo; (&ldquo;pits, beehives, whirlpools&rdquo;). This series was set up in 1517+500=2017, 500 years after Francis Skorina founded Belarusian bookprinting in Prague. The purposes of this initiative are multiple:</p>
+<p><strong>Pragmatic</strong>: to provide overseas Belarusians with printed literature while not tying the manufacturing, distribution and sales processes to metropolitan Belarus.</p>
+<p><strong>Scientific</strong>: to publish research in the areas of Belarusan linguistics, historiography, social studies, ethnography, as well as dictionaries, reference books, etc.</p>
+<p><strong>Regulatory and standardizing</strong>: Belarusian language benefits from three graphic systems, while only Cyrillic is used on a daily basis. We aim to renew the use of the Belarusian Latin script and to re-found its secular Arabic script (secular &mdash; not motivated by religious needs) through the publication of the main Belarusian culture-forming texts via these protocols.</p>
+<p>Publishing editor of the series: <strong><a href="https://seveleu.com" target="_blank">Maxime Seveleu-Dubrovnik</a></strong>, PhD.</p>
+<p>The site is late in its updates, the discrepancy will be eliminated before March 2019.</p>
+  </section>
     <section id="rus" class="tab-panel">
       <p>Все белорусскоязычные произведения издательства &laquo;Vodary Paris&raquo; группируются в издательскую серию &laquo;<em>Ямы, вуллі і віры</em>&raquo; (&laquo;ямы, ульи, омуты&raquo;). Это серия возникла в 1517+500=2017 году, через 500 лет после основания белорусского книгопечатания Франциском Скориной в Праге. Функции этого издательства многосторонние:</p>
 <p><strong>Прагматические</strong>: обеспечивать печатной литературой белорусское зарубежье не завязывая процессы изготовления, распространения (дистрибуции) и реализации (продажи) на метрополию Беларуси.</p>
