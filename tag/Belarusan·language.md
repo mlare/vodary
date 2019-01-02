@@ -7,7 +7,7 @@ resume: Éditions Vodary Paris, books in Belarusan language
 author: 
 ---
 
-![](img/JVV2017.png)
+![](/img/JVV2017.png)
 
 <div class="tabset">
   <!-- Tab 1 -->
