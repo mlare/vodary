@@ -2,12 +2,12 @@
 layout: tagpage
 title: "Belarusan language"
 tag: Belarusan·language
-keywords: беларускае выдавецтва ў Парыжы, белорусское издательство в Париже, водары, водари
+keywords: беларускае выдавецтва ў Парыжы, белорусское издательство в Париже, водары, водари, ямы, вулли, вуллі, ульи, виры, віры, водовороты, омуты, whirlpools, pits, beehives
 resume: Éditions Vodary Paris, books in Belarusan language
 author: 
 ---
 
-![](/img/JVV2017.png)
+![](/assets/img/JVV2017.png)
 
 <div class="tabset">
   <!-- Tab 1 -->
