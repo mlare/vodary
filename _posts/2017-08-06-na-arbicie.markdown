@@ -8,8 +8,6 @@ date: 2017-08-06 07:00:00
 homepage: 
 download: 
 demo: 
-author: Yanka Kupala, P.Ponomarenko
-orauthor: Янка Купала, П.Пономаренко
 isbn: provisional979109700501
 thumbnail: na-arbicie.png
 tags: Belarusan·language Russian·language Cyrillic·script
