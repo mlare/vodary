@@ -35,7 +35,8 @@ layout: default
 		{% if page.license_link %}<a class="btn" href="{{ page.license_link }}"><i class="icon-file"></i> License</a>{% endif %}
                 --->
 
-		{% if page.editor %}<p class="bulk"><span class="technical">Editor:</span> {{ page.editor }} {% if page.editorpic %}<img width="20%" src="/thumbnails/{{ page.editorpic }}" />{% endif %}</p>{% endif %}
+		{% if page.editor %}<p class="bulk"><span class="technical">[Publisher:</span> {{ page.editor }} {% if page.editorpic %}<img width="20%" src="/thumbnails/{{ page.editorpic }}" />{% endif %}</p>{% endif %}
+		{% if page.editpers %}<p class="bulk"><span class="technical">[Editor:</span> {{ page.editpers }} {% if page.editorpic %}<img width="20%" src="/thumbnails/{{ page.editorpic }}" />{% endif %}</p>{% endif %}
 		{% if page.isbn %}<p class="bulk"><span class="technical">ISBN:</span> <a target="_blank" href="https://www.amazon.com/gp/search/?field-isbn={{ page.isbn }}">{{ page.isbn }}</a></p>{% endif %}		
 	</div>
 
