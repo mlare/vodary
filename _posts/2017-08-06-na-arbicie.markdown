@@ -12,7 +12,7 @@ author: Yanka Kupala, P.Ponomarenko
 orauthor: Янка Купала, П.Пономаренко
 isbn: provisional979109700501
 thumbnail: na-arbicie.png
-tags: Belarusan·language RUssian·language Cyrillic·script
+tags: Belarusan·language Russian·language Cyrillic·script
 editor: Éditions Vodary Paris
 editorpic: vodaryColor.png
 editpers: M.Seveleu-Dubrovnik
