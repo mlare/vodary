@@ -11,10 +11,10 @@ demo:
 author: Yanka Kupala, P.Ponomarenko
 orauthor: Янка Купала, П.Пономаренко
 isbn: provisional979109700501
-thumbnail: WellsEnglish.png
+thumbnail: na-arbicie.png
 tags: Belarusan·language RUssian·language Cyrillic·script
 editor: Éditions Vodary Paris
-editorpic: na-arbicie.png
+editorpic: vodaryColor.png
 editpers: M.Seveleu-Dubrovnik
 keywords: Yanka Kupala, Янка Купала, Панцеляймон Панамарэнка, Пантелеймон Пономаренко, Тутэйшыя, Тутэйшие, письмо Сталину, ліст да Сталіна, letter to Stalin, о белорусском языке, пра беларускую мову, on Belarusian language
 license: MIT License
