@@ -13,7 +13,7 @@ orauthor: Янка Купала, Пантелеймон Пономаренко
 isbn: provisional979109700501
 thumbnail: na-arbicie.png
 tags: Belarusan·language Russian·language Cyrillic·script
-editor: Éditions Vodary Paris
+editor: Jamy, vuĺli i viry (Ямы, вуллі і віры)
 editorpic: JamyVylliViry.png
 editpers: M.Seveleu-Dubrovnik
 keywords: Yanka Kupala, Янка Купала, Панцеляймон Панамарэнка, Пантелеймон Пономаренко, Panteleimon Ponomarenko, Тутэйшыя, Тутэйшие, письмо Сталину, ліст да Сталіна, letter to Stalin, о белорусском языке, пра беларускую мову, on Belarusian language
