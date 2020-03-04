@@ -28,7 +28,7 @@ author:
 <p><strong>Навуковыя</strong>: публікаваць навуковыя распрацоўкі ў галінах беларускага мовазнаўства, гісторыяграфіі, грамадазнаўства, этнаграфіі, а таксама слоўнікі, даведнікі і г.д.</p>
 <p><strong>Нарматы</strong><strong>ў</strong><strong>на-стандартызуючая</strong>: беларуская мова мае тры графічныя сістэмы, з якіх у распрацаваным ужытку знаходзіцца толькі <em>кірылічная</em>. Мы ставім на мэту аднавіць узус <em>лацінскае</em> графікі беларускае мовы і заснаваць яе лаічную <em>арабіцу</em> (лаічную &mdash; не матываваную рэлігійнымі патрэбамі) праз выдаўніцтва галоўных беларусаўтваральных твораў у гэтых графіках.</p>
 <p>Выдаўнічы рэдактар серыі: <strong><a href="https://seveleu.com" target="_blank">Максім Севелеў-Дуброўнік</a></strong>, к.ф.н.</p>
-<p>Сайт знаходзіцца ў некаторым спазненні ў публікацыі, яно будзе выпраўлена да красакавіка 2020.</p>
+<p>Сайт знаходзіцца ў некаторым спазненні ў публікацыі, яно будзе выпраўлена да красавіка 2020.</p>
     </section>
       <section id="en" class="tab-panel">
       <p>All Belarusian-language works of the publishing house &ldquo;Vodary Paris&rdquo; are grouped into the publishing series &ldquo;<em>Jamy, vulli i viry</em>&rdquo; (&ldquo;pits, beehives, whirlpools&rdquo;). This series was set up in 1517+500=2017, 500 years after Francis Skorina founded Belarusian bookprinting in Prague. The purposes of this initiative are multiple:</p>
