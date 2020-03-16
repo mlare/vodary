@@ -13,6 +13,8 @@ published: true
 
 <img src="/assets/img/JVV2017.png" width="240px" style="padding: 10px;">
 
+<span itemscope itemtype="http://schema.org/CreativeWorkSeries">
+
 
 <div class="tabset">
   <!-- Tab 1 -->
@@ -26,7 +28,6 @@ published: true
   <label for="tab3">по-русски</label>
   
   
-  <span itemscope itemtype="http://schema.org/CreativeWorkSeries">
   
   <div class="tab-panels">
     <section id="bel" class="tab-panel">
@@ -56,3 +57,6 @@ published: true
   </div>
   
 </div>
+
+
+</span>
