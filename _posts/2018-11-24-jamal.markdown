@@ -14,7 +14,7 @@ orresume: "<strong>Предпосылки</strong>. Попытки описат�
 <strong>Б</strong>. Берейшит (Бытие), 1:2;
 <strong>РX y:z</strong>. Ригведа, X-я часть , 129:y, строка z.
 "
-isbn: provisional979109700502
+isbn: 9782490771028
 thumbnail: Dzhemal.png
 tags: Russian·language Cyrillic·script
 editor: Éditions Vodary Paris
