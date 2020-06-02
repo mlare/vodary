@@ -22,5 +22,5 @@ editorpic: vodaryColor.png
 keywords: Heydar Jamal, Geydar Dzhemal, Heading North, Orientation North, ориентация север, Гейдар Джемаль
 license: MIT License
 ---
-This work will be translated into <a href="https://vodary.fias.fr/tag/english%C2%B7language/">English</a> by <a href="https://vodary.fias.fr/tag/english%C2%B7language/">M.Hardy</a>.
+<!---This work will be translated into <a href="https://vodary.fias.fr/tag/english%C2%B7language/">English</a> by <a href="https://vodary.fias.fr/tag/english%C2%B7language/">M.Hardy</a>.--->
 
