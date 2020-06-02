@@ -4,7 +4,7 @@ title: Heading North
 resume: Heydar Jamal has authored works on theology and philosophy and is a member of the Yuzhinsky (Mamleev's) Moscow philosophy circle. In this work, he attempts to structurize and specify the processes of exarticulating structured reality from unstructured chaos. The author deliberately refuses to produce positive definitions as they always come from a specific assemblage point (“universal arbitrariness” of the sovereign, according to Jamal). This text is a consistent experience of apophaticism, which deprives us from any point of support in logics; this is the conscious position of the author. By relativizing arbitrary assemblage points, similar to what Einstein did in physics in the 1910s, the author is able to crystallize the invariant properties of the system, to separate the absolute part from the subject-dependent and arbitrary one (in terms of the work). The significance of the conclusions reached by the author cannot be underestimated, but in order to understand them, honesty and cognitive exactingness of the reading subject are crucial.
 date: 2018-11-24 07:00:00
 homepage: 
-download: https://books.google.fr/books/about?id=rMDoDwAAQBAJ
+download: 
 demo: 
 author: Heydar Jamal
 ortitle: Ориентация — север
@@ -21,6 +21,8 @@ editor: Éditions Vodary Paris
 editorpic: vodaryColor.png
 keywords: Heydar Jamal, Geydar Dzhemal, Heading North, Orientation North, ориентация север, Гейдар Джемаль
 license: MIT License
+readonline: https://books.google.fr/books/about?id=rMDoDwAAQBAJ
+
 ---
 <!---This work will be translated into <a href="https://vodary.fias.fr/tag/english%C2%B7language/">English</a> by <a href="https://vodary.fias.fr/tag/english%C2%B7language/">M.Hardy</a>.--->
 
