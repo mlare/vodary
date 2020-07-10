@@ -15,4 +15,4 @@ editorpic: vodaryColor.png
 keywords: Herbert George Wells, First and last things, god the invisible king, confessions, intellectual history, max stirner
 license: MIT License
 ---
-This work will be translated into <a href="https://vodary.fias.fr/tag/belarusan%C2%B7language/">Belarusan</a> and <a href="https://vodary.fias.fr/tag/russian%C2%B7language/">Russian</a> by <a href="https://vodary.fias.fr/tag/belarusan%C2%B7language/">M.Seveleu</a>.
+<!---This work will be translated into <a href="https://vodary.fias.fr/tag/belarusan%C2%B7language/">Belarusan</a> and <a href="https://vodary.fias.fr/tag/russian%C2%B7language/">Russian</a> by <a href="https://vodary.fias.fr/tag/belarusan%C2%B7language/">M.Seveleu</a>.-->
