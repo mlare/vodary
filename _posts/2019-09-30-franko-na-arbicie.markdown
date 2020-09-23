@@ -12,7 +12,7 @@ author: Ivan Franko
 orauthor: Іван Франко
 isbn: 9782490771042
 thumbnail: Franko_cover.png
-tags: Belarusan·language Russian·language Cyrillic·script
+tags: Belarusan·language Cyrillic·script
 editor: Jamy, vuĺli i viry // <a href="/tag/belarusan·language/">Ямы, вуллі і віры</a>
 editorpic: JamyVulliViry.png
 editpers: M.Seveleu-Dubrovnik, translator
