@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Eugene Oniegin
+title: Eugene Onegin
 ortitle: Яўген Анегін
-resume: "The second issue of the “Belarus on Orbit” contains the Belarusian version of a poetic novel “Eugene Oniegin” by A.Pushkin, translated into Belarusian by A.Kuliašoŭ."
+resume: "The second issue of the “Belarus on Orbit” contains the Belarusian version of a poetic novel “Eugene Onegin” by A.Pushkin, translated into Belarusian by A.Kuliašoŭ."
 orresume: "У другім нумары Серыі «Ямы, вуллі і віры» змашчаецца пераклад на беларускую мову рамана ў вершах А.Пушкіна «Яўген Анегін», выкананы А.Куляшовым у 1948 г."
 date: 2018-08-10 07:00:00
 homepage: 
