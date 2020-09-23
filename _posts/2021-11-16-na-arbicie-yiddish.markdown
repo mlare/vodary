@@ -10,7 +10,7 @@ download:
 demo: 
 author: Yanka Kupala, Panteleimon Ponomarenko
 orauthor: Янка Купала, Пантелеймон Пономаренко
-isbn: 9782490771059
+isbn: 9782490771066
 thumbnail: na-arbicie.png
 tags: Belarusan·language Russian·language Cyrillic·script
 editor: Jamy, vuĺli i viry // <a href="/tag/belarusan·language/">Ямы, вуллі і віры</a>
