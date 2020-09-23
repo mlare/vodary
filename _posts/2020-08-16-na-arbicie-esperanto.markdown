@@ -4,7 +4,7 @@ title: Belorusa kultura spaco &colon; 500 jaroj post Skaryna
 ortitle: Беларуская культурная прастора&colon; 500 гадоў пасля Скарыны
 resume: "En 2017, belorusoj festis duonan jarmilon de la belorusa kultura spaco iniciatita de Franсysk Skaryna en Prago la 6an de aŭgusto 1517. Ĉi tiu Esperanta eldono prezentas la plej gravajn figurojn de ĉi tiu spaco kaj iliajn verkojn. Dato de eldono: novembro 2020."
 orresume: "У 2017 годзе беларусы святкавалі паўтысячагоддзе беларускай культурнай прасторы, ініцыяванай Францыскам Скарынам у Празе 6 жніўня 1517 года. Гэтае выданне на мове эсперанта прэзентуе буйныя фігуры гэтай прасторы і іх творы. Дата выдання: лістапад 2020."
-date: 2020-11-16 07:00:00
+date: 2020-08-16 07:00:00
 homepage: 
 download: 
 demo: 
