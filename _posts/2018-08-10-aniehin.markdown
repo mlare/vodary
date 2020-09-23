@@ -15,7 +15,7 @@ thumbnail: Aniehin_cover.png
 tags: Belarusan·language Cyrillic·script
 editor: Jamy, vuĺli i viry // <a href="/tag/belarusan·language/">Ямы, вуллі і віры</a>
 editorpic: JamyVulliViry.png
-editpers: M.Seveleu-Dubrovnik
+editpers: 
 keywords: Александр Пушкин, Аркадий Кулешов, Аляксандр Пушкін, Аркадзь Куляшоў, Яўген Анегін, Евгений Онегин
 license: MIT License
 ---
