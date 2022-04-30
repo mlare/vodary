@@ -14,5 +14,5 @@ editor: Scientia Rerum academic publishers, Paris
 editorpic: ScientiaRerumPlainTextLogo.png
 keywords: Thomas Malthus, famine, population, wars, dynamic equilibrium, physics of complex systems
 license: MIT License
-readonline: https://vodary.fias.fr/books/malthus/text/0-3-contents.html
+readonline: https://vodary.mla.re/books/malthus/text/0-3-contents.html
 ---
